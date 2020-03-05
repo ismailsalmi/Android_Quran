@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:orientation="vertical"
+    tools:context="com.salmi.quran.CustomSettings">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark"
+        app:titleTextColor="@color/light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="الإعدادات"
+                android:textAlignment="textStart"
+                android:textColor="@color/light"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Switch
+                android:id="@+id/darkTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:drawableRight="@drawable/ic_invert_colors_white_24dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="الوضع الليلي"
+                android:checked="false"
+                android:textColor="@color/light"
+                android:background="@color/dark"
+                android:padding="15dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/changeFonts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light"
+                android:background="@color/dark"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:textAlignment="center"
+                android:drawableRight="@drawable/ic_font_download_white_24dp"
+                android:padding="15dp"
+                android:text="تغيير الخط" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light"
+                android:textAlignment="textStart"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:textSize="20dp"
+                android:text="التطبيقات"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/moreApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/light"
+                android:background="@color/dark"
+                android:padding="15dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:textAlignment="center"
+                android:drawableRight="@drawable/ic_shop_white_24dp"
+                android:text="مزيد من التطبيقات على المتجر"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/shareApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_share_white_24dp"
+                android:background="@color/dark"
+                android:textColor="@color/light"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="نشر التطبيق"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="الإعدادات الأخرى"
+                android:textColor="@color/light"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:background="@color/dark"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/deleteDirectory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="حذف كل السور المحملة على الجهاز"
+                android:drawableRight="@drawable/ic_delete_white_24dp"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:textColor="@color/light"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/folderSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:drawableRight="@drawable/ic_save_white_24dp"
+                android:textColor="@color/light"
+                android:textAlignment="center"
+                android:background="@color/dark"
+                android:padding="15dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/infoApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:text="معلومات التطبيق"
+                android:drawableRight="@drawable/ic_info_white_24dp"
+                android:textColor="@color/light"
+                android:textAlignment="center"
+                android:background="@color/dark"
+                android:padding="15dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

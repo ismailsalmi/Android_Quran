@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark">#303030</color>
+    <color name="light">#FFFFFF</color>
+    <color name="cyan">#006064</color>
+    <color name="green">#23FF00</color>
+
+</resources>

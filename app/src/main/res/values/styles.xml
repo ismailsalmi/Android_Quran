@@ -1,0 +1,52 @@
+<resources>
+    <!--Applications Default Darktheme-->
+    <style name="AppTheme_1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/one</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+    </style>
+
+    <!--Applications Custom Darktheme 2-->
+    <style name="AppTheme_2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/two</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+    </style>
+
+    <!--Applications Custom Darktheme 3-->
+    <style name="AppTheme_3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/three</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+    </style>
+
+    <!--Applications Custom Darktheme 4-->
+    <style name="AppTheme_4" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/fore</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+    </style>
+
+    <!--Applications Custom Darktheme 5-->
+    <style name="AppTheme_5" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/five</item>
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:direction">right_to_left</item>
+    </style>
+
+</resources>

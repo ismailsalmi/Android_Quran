@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">العيون الكوشي</string>
+
+    <string name="action_setting">الإعدادات</string>
+    <string name="Check_Internet">قم بتشغيل الإنترنت</string>
+    <string name="about">حول</string>
+    <string name="share_App">نشر التطبيق</string>
+    <string name="more_app">مزيد من التطبيقات</string>
+    <string name="change_Color">تغيير اللون</string>
+    <string name="close">غلق</string>
+    <string name="color_Is_Changed"> تم تغيير اللون.</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="do_you_want">هل تريد تحميل صورة </string>
+    <string name="download_error">خطأ.</string>
+    <string name="delet_file">حذف الصور المحملة</string>
+    <string name="textview">textView</string>
+    <string name="textTile">textview</string>
+
+
+    <string-array name="fonts">
+        <item>الخط الأول</item>
+        <item>الخط الثاني</item>
+        <item>الخط الثالث</item>
+        <item>الخط الرابع</item>
+        <item>الخط الخامس</item>
+    </string-array>
+
+    <string-array name="numberAlias">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="title_activity_app_info">العيون الكوشي</string>
+    <string name="action_settings">Settings</string>
+    <string name="versionApp">الإصدار 5.0.10</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <string name="more_text_notification_title_template">More text: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="more_text_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="picture_notification_title_template">Picture: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="picture_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+
+</resources>
